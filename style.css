@@ -1,0 +1,37 @@
+img{
+    max-width: 50%;
+    text-align: end solid black;
+}
+
+body{
+    margin-top: auto;
+    background-color: wheat;
+}
+
+#destaque{
+    background-size: cover;
+    text-align: left;
+    color: solid black;
+    height: 300px;
+}
+
+#dov{
+    display: flex;
+    justify-content: baseline;
+    clear: both;
+}
+
+@media screen and (max-width: 768px){
+    produto-container{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+    
+footer{
+    clear: both;
+    text-align: center;
+    width: 70%;
+    background-color: black;
+    color: darkred;
+}
